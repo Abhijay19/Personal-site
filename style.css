@@ -1,0 +1,54 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0f1010, #343a40, #212529);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .main-img{
+    border-radius: 2%;
+    border: 2px solid whitesmoke;
+  }
+  .main-font{
+    font-family: 'Bodoni Moda', serif;
+  }
+  .profile-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  @media(min-width:219px) and (max-width:600px) {
+    .main-img{
+      height: 250px;
+    }
+    .profile-img {
+        height: 100px;
+        width: 100px;
+    }
+    .projspec{
+      margin-right: 20px;
+    }
+  }
+ 
+  .bg{
+    background-color: #ece9e5;
+  }
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  .projspec{
+    margin-right: 25px;
+ 
+  }
